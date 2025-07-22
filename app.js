@@ -1,5 +1,3 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-app.js";
-import { getDatabase, ref, get, set, onValue, update } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-database.js";
 
 // TODO: Αντικατάστησε με το δικό σου Firebase config
 const firebaseConfig = {
@@ -12,8 +10,8 @@ const firebaseConfig = {
   appId: "1:915847556113:web:78fbab7f35c9cdcf3c95b0"
 };
 
-const app = initializeApp(firebaseConfig);
-const db = getDatabase(app);
+const app = window.firebaseApp;
+const db = window.firebaseDb;
 
 const btnNo = document.getElementById("btn-no");
 const btnYes = document.getElementById("btn-yes");
