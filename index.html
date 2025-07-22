@@ -1,13 +1,30 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anti-Gooning App</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<html lang="el">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Antigooning Challenge</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Antigooning Challenge</h1>
+    <div id="timer"></div>
+    <div id="choice-section">
+      <p>Έκανες goon σήμερα;</p>
+      <button id="btn-no">Όχι</button>
+      <button id="btn-yes">Ναι</button>
+    </div>
+    <hr />
+    <h2>Leaderboard</h2>
+    <div id="leaderboard"></div>
+    <hr />
+    <div id="user-section">
+      <input type="text" id="username" placeholder="Βάλε όνομα" />
+      <button id="btn-add-user">Πρόσθεσε χρήστη</button>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
 </html>
