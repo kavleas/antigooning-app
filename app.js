@@ -3,13 +3,13 @@ import { getDatabase, ref, get, set, onValue, update } from "https://www.gstatic
 
 // TODO: Αντικατάστησε με το δικό σου Firebase config
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-  databaseURL: "https://YOUR_PROJECT_ID.firebaseio.com",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_PROJECT_ID.appspot.com",
-  messagingSenderId: "SENDER_ID",
-  appId: "APP_ID"
+  apiKey: "AIzaSyD8rBPGRvCZEHZON9VA3tnWdLDnaOIslcA",
+  authDomain: "anti-gooning-challenge.firebaseapp.com",
+  databaseURL: "https://anti-gooning-challenge-default-rtdb.firebaseio.com",
+  projectId: "anti-gooning-challenge",
+  storageBucket: "anti-gooning-challenge.firebasestorage.app",
+  messagingSenderId: "915847556113",
+  appId: "1:915847556113:web:78fbab7f35c9cdcf3c95b0"
 };
 
 const app = initializeApp(firebaseConfig);
